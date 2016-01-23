@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+
+html {
+  background-color: #e6e6e6;
+}
+
+#header {
+  text-align: left;
+  padding-left: 10px;
+  background-color: #66a3ff;
+}
+
+#about{
+}
+
+#projects {
+  float: left;
+  padding-left: 15px;
+  margin-left: 10px;
+
+  width: 200px;
+  height: 200px;
+}
+
+#proj-list {
+  font-size: 15pt;
+}
