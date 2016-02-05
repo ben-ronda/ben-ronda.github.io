@@ -14,6 +14,20 @@
     color: #ff8c1a;
   }
 
+  .icon{
+    display: inline-block;
+    padding-left: 3px;
+    padding-right: 3px; 
+  }
+
+  #glyphs a{
+    color: #e6e6e6;
+  }
+
+  #glyphs a:hover{
+    color: #ff8c1a;
+  }
+
   #content{
     margin: auto;
     max-width: 1000px;
@@ -66,15 +80,35 @@
     color: #ff8c1a;
   }
 
+  .icon{
+    display: inline-block;
+    padding-left: 3px;
+    padding-right: 3px; 
+  }
+
+  #glyphs a{
+    color: #e6e6e6;
+  }
+
+  #glyphs a:hover{
+    color: #ff8c1a;
+  }
+
+  #content{
+    padding-left: 10px;
+    padding-right: 10px; 
+  }
+
   #about{
     margin: auto;
     background-color: #e6e6e6;
-    text-align: center;
+    text-align: left;
   }
 
   #projects {
-    text-align: center;
+    text-align: left;
     background-color: #e6e6e6;
+    padding-left: 10px;
   }
 
   #proj-list {
@@ -94,5 +128,7 @@
   #about-info{
     padding: 10px;
     margin: auto;
+    border-bottom: 2px solid;
+    border-color: #595959;
   }
 }
