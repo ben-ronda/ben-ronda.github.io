@@ -1,36 +1,90 @@
-body {
-  background-color: #e6e6e6 !important;
-  font-family: 'Dosis', sans-serif !important;
+@media(min-width: 768px){
+  body {
+    background-color: #e6e6e6 !important;
+    font-family: 'Dosis', sans-serif !important;
+  }
+
+  html {
+    background-color: #e6e6e6 !important;
+  }
+
+  #header {
+    text-align: center;
+    background-color: #66a3ff;
+  }
+
+  #about{
+    float: left;
+    background-color: #e6e6e6;
+    max-width: 500px;
+    margin-left: 15px;
+  }
+
+  #projects {
+    background-color: #e6e6e6;
+    display: inline-block;
+    min-width: 200px;
+    padding-left: 10px;
+  }
+
+  #proj-list {
+    list-style: none;
+    font-size: 15pt;
+    padding-left: 0px;
+  }
+
+  #prof-pic {
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+  }
+  #about-info{
+    padding: 10px;
+    margin: auto;
+  }
 }
 
-html {
-  background-color: #e6e6e6 !important;
-}
+@media(max-width: 767px){
+  body {
+    background-color: #e6e6e6 !important;
+    font-family: 'Dosis', sans-serif !important;
+  }
 
-#header {
-  text-align: center;
-  background-color: #66a3ff;
-}
+  html {
+    background-color: #e6e6e6 !important;
+  }
 
-#about{
-  margin: auto;
-  background-color: #e6e6e6;
-  text-align: center;
-}
+  #header {
+    text-align: center;
+    background-color: #66a3ff;
+  }
 
-#projects {
-  text-align: center;
-  background-color: #e6e6e6;
-}
+  #about{
+    margin: auto;
+    background-color: #e6e6e6;
+    text-align: center;
+  }
 
-#proj-list {
-  list-style: none;
-  font-size: 15pt;
-  padding-left: 0px;
-}
+  #projects {
+    text-align: center;
+    background-color: #e6e6e6;
+  }
 
-#prof-pic {
-  padding: 10px;
-  margin: auto;
-  max-height: 500px;
+  #proj-list {
+    list-style: none;
+    font-size: 15pt;
+    padding-left: 0px;
+  }
+
+  #prof-pic {
+    padding: 10px;
+    margin: auto;
+    max-height: 500px;
+    border-radius: 20px;
+  }
+
+  #about-info{
+    padding: 10px;
+    margin: auto;
+  }
 }
