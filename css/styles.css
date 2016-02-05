@@ -10,7 +10,8 @@
 
   #header {
     text-align: center;
-    background-color: #66a3ff;
+    background-color: #595959;
+    color: #ff8c1a;
   }
 
   #content{
@@ -61,7 +62,8 @@
 
   #header {
     text-align: center;
-    background-color: #66a3ff;
+    background-color: #595959;
+    color: #ff8c1a;
   }
 
   #about{
@@ -85,7 +87,8 @@
     padding: 10px;
     margin: auto;
     max-height: 500px;
-    border-radius: 20px;
+    border-radius: 50%;
+
   }
 
   #about-info{
