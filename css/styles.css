@@ -37,12 +37,18 @@
     height: 100%;
   }
 
-  #slide{
+  #slide {
     width: 100px;
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    background-color: green;
+    color: black;
+    background-color: #e6e6e6;
+  }
+  
+
+  #slide button:hover{
+    background-color: #ff8c1a;
   }
 
   .icon{
