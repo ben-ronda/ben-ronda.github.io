@@ -42,8 +42,15 @@
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    color: black;
     background-color: #e6e6e6;
+  }
+  .btn-primary{
+    border-color: #e6e6e6;
+    color:#000;
+  }
+  .btn-primary:hover{
+    border-color: #ff8c1a;
+    color: #ff8c1a;
   }
   .btn-primary:active{
     border-color: #e6e6e6;
