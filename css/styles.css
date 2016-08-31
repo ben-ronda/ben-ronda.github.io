@@ -93,6 +93,9 @@
   .project{
 
   }
+  .project-btn{
+    text-align: right;
+  }
 
   #proj-list {
     list-style: none;
