@@ -86,9 +86,12 @@
 
   #projects {
     background-color: #e6e6e6;
-    display: inline-block;
     min-width: 200px;
-    padding-left: 10px;
+    max-width: 600px;
+    padding-left: 25px;
+  }
+  .project{
+
   }
 
   #proj-list {
