@@ -92,16 +92,24 @@
     width:100%;
   }
   .project{
-    width: 465px;
+    width: 435px;
     float: left;\margin: 5px;
     border: 2px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 200px;
   }
-  .project:nth-child(odd){
+  .project h3{
+    margin-top: 5px;
+  }
+  /*.project:nth-child(odd){
     padding-left: 15px;
   }
   .project:nth-child(even){
     padding-right: 15px;
-  }
+  }*/
   .project-btn{
     text-align: right;
   }
