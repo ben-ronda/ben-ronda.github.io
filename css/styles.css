@@ -104,6 +104,9 @@
   .project h3{
     margin-top: 5px;
   }
+  .project p {
+    height: 100px;
+  }
   /*.project:nth-child(odd){
     padding-left: 15px;
   }
