@@ -93,19 +93,35 @@
   }
   .project{
     width: 435px;
-    float: left;\margin: 5px;
-    border: 2px solid black;
-    padding-left: 15px;
+    float: left;
+    margin: 5px;
+    background-color: #f2f2f2;
+    border: 2px solid #d9d9d9;
+    border-radius: 3px;
+    /*padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 5px;*/
     height: 200px;
   }
+  /*.project:hover{
+    box-shadow: 5px 5px 5px ;
+  }*/
   .project h3{
-    margin-top: 5px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #d9d9d9;
   }
+
   .project p {
-    height: 100px;
+    height: 105px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   /*.project:nth-child(odd){
     padding-left: 15px;
@@ -115,6 +131,10 @@
   }*/
   .project-btn{
     text-align: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    border-top: 1px solid #d9d9d9;
   }
 
   #proj-list {
