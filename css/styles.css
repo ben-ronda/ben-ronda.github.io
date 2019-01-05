@@ -14,6 +14,7 @@
     color: #ff8c1a;
     padding: 0px;
     background: url('img/lookup.jpg') center no-repeat;
+    background-size: cover;
   }
 
   #tile-opac{
