@@ -14,3 +14,10 @@ const me = {
     'Python'
   ]
 }
+
+const generateSkillsList = skills => {
+  let skillsList = '';
+  for (let i = 0; i < skills.length; i += 1){
+    `<li>${skills[i]}</li>`
+  }
+}
